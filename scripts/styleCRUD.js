@@ -82,8 +82,8 @@ function listItem()
         obj += "Title: " + arr[i].postTitle +  "</br>";
         obj += "Date: " + arr[i].postDate + "</br>" ;
         obj += "Summary: " + arr[i].postSum + "</br>";
-        obj += "<img src='images/pencil.png' width='30px' height='30px' alt='pencil icon' onclick='updateItem(" + i + ")'>";
-        obj += "<img src='images/eraser.png' width='30px' height='30px' alt='pencil icon' onclick='removeItem(" + i + ")'>";
+        obj += "<img src='images/pencil.png' width='30px' height='30px' alt='pencil icon' onclick='updateItem(" + i + ")' alt='pencil icon'>";
+        obj += "<img src='images/eraser.png' width='30px' height='30px' alt='pencil icon' onclick='removeItem(" + i + ")' alt='eraser icon'>";
     }
     document.querySelector('#blogPosts').innerHTML = obj;
 }
