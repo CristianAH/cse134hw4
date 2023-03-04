@@ -1,0 +1,23 @@
+
+
+:root {
+    --p-color: #FEA82F;
+    --bg-color: #FCECDD;
+    --hn-color: #FEA82F;
+    --navbar-color: #FF6701;
+}
+
+[data-theme=dark] {
+    --p-color: #af7a3d;
+    --bg-color: #0b0909;
+    --hn-color: #3b8caf;
+    --navbar-color: #8f42f3;
+}
+
+.blogPost
+{
+    border: solid  1em var(--navbar-color);
+    display: block;
+    width: 80%;
+    background-color: var(--hn-color);
+}
